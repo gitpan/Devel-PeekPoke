@@ -1,3 +1,9 @@
+0.01_01 2012-02-04 22:40 (UTC)
+
+    - Fix memory corruption issues by preempting perl garbage collection
+      of the artificial string PV
+    - Fix describe_bytestring to work correctly with large offsets on
+      32bit machines
 
 0.01  2011-08-31 11:10 (UTC)
 
